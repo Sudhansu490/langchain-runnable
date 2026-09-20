@@ -2,8 +2,6 @@
 
 Learn LangChain **Runnables** from scratch — from a fake `NakliLLM` + `NakliPrompt` chain to real `RunnableSequence`, `RunnableParallel`, `RunnablePassthrough`, `RunnableBranch`, and `RunnableLambda` with Groq.
 
-Repo: https://github.com/Sudhansu490/langchain-runnable
-
 ## Contents
 
 | File | What it covers |
