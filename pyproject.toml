@@ -1,0 +1,34 @@
+[project]
+name = "langchain-runnable"
+version = "0.1.0"
+description = "Learn LangChain Runnables from scratch - RunnableSequence, Parallel, Passthrough, Branch, Lambda"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sudhansu490" }]
+keywords = ["langchain", "runnable", "llm", "genai"]
+dependencies = [
+  "langchain-core>=0.3.0",
+  "langchain-groq>=0.2.0",
+  "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+notebook = [
+  "jupyter>=1.0.0",
+  "ipykernel>=6.0.0",
+]
+dev = [
+  "ruff>=0.4.0",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["__pycache__*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
