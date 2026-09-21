@@ -3,7 +3,7 @@ name = "langchain-runnable"
 version = "0.1.0"
 description = "Learn LangChain Runnables from scratch - RunnableSequence, Parallel, Passthrough, Branch, Lambda"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.13"
 license = { text = "MIT" }
 authors = [{ name = "Sudhansu490" }]
 keywords = ["langchain", "runnable", "llm", "genai"]

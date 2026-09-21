@@ -15,7 +15,7 @@ Learn LangChain **Runnables** from scratch — from a fake `NakliLLM` + `NakliPr
 
 ## Setup
 
-Requires Python >= 3.10.
+Requires Python >= 3.13.
 
 ```bash
 pip install -e ".[notebook]"
